@@ -1,0 +1,7 @@
+provider_installation {
+  dev_overrides {
+    "terraform-provider-scorpio" = "../../bin" // the directory where the binary was built.
+  }
+  direct {}
+}
+//FIXME this is not working with TF_CONFIG
